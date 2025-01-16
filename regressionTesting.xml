@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+<suite name="Haila testing Suite">
+    <test name="Regression test cases">
+        <classes>
+            <class name="org.haila.applications.ApplicationsPageTest"/>
+            <class name="org.haila.company.CompanyPageTest"/>
+            <class name="org.haila.contact.ContactPageTest"/>
+            <class name="org.haila.partners.PartnersPageTest"/>
+            <class name="org.haila.product.ProductsPageTest"/>
+            <class name="org.haila.technology.TechnologyPageTest"/>
+            <class name="org.haila.language.LanguageChangeTest"/>
+        </classes>
+    </test>
+</suite>
